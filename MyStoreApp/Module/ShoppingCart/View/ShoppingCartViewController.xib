@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ShoppingCartViewController" customModule="MyStoreApp" customModuleProvider="target">
+            <connections>
+                <outlet property="shoppingCartCollection" destination="Sb2-bl-h5R" id="JqS-EM-leO"/>
+                <outlet property="sizeShoppingCartLbl" destination="O8N-Du-Pe6" id="UEk-an-Gbc"/>
+                <outlet property="totalShoppingCartLbl" destination="BRM-k4-DbB" id="SO1-HD-U6z"/>
+                <outlet property="view" destination="iN0-l3-epB" id="hHp-Pc-RYo"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Sb2-bl-h5R">
+                    <rect key="frame" x="12" y="71" width="369" height="615"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="UQ0-65-141">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QXJ-AB-pxC">
+                    <rect key="frame" x="0.0" y="678" width="393" height="140"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRM-k4-DbB">
+                            <rect key="frame" x="362" y="59.333333333333371" width="19" height="20"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O8N-Du-Pe6">
+                            <rect key="frame" x="372" y="12" width="9" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Productos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XGP-md-T3A">
+                            <rect key="frame" x="12" y="12" width="66.333333333333329" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gratis" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3b-o6-pg2">
+                            <rect key="frame" x="347" y="37" width="34" height="14.333333333333336"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" name="Zone3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Envío" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfQ-CI-L6S">
+                            <rect key="frame" x="12.000000000000002" y="37" width="30.666666666666671" height="14.333333333333336"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="52b-v3-0XH">
+                            <rect key="frame" x="24" y="97" width="345" height="35"/>
+                            <color key="tintColor" name="BackIcon"/>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" title="Proceder al pago">
+                                <color key="baseBackgroundColor" name="BackIcon"/>
+                            </buttonConfiguration>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9F-zP-rR7">
+                            <rect key="frame" x="12" y="59.333333333333371" width="36" height="20"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.97999999999999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="140" id="7JB-bS-hRw"/>
+                        <constraint firstItem="RfQ-CI-L6S" firstAttribute="leading" secondItem="QXJ-AB-pxC" secondAttribute="leading" constant="12" id="ANy-Oi-qmM"/>
+                        <constraint firstItem="52b-v3-0XH" firstAttribute="leading" secondItem="QXJ-AB-pxC" secondAttribute="leading" constant="24" id="Kdr-7q-Gyn"/>
+                        <constraint firstItem="d9F-zP-rR7" firstAttribute="leading" secondItem="QXJ-AB-pxC" secondAttribute="leading" constant="12" id="Lm1-V1-SMg"/>
+                        <constraint firstAttribute="trailing" secondItem="O8N-Du-Pe6" secondAttribute="trailing" constant="12" id="Qq5-lK-f7O"/>
+                        <constraint firstItem="XGP-md-T3A" firstAttribute="leading" secondItem="QXJ-AB-pxC" secondAttribute="leading" constant="12" id="b5h-0r-Qyh"/>
+                        <constraint firstAttribute="trailing" secondItem="52b-v3-0XH" secondAttribute="trailing" constant="24" id="bn6-cq-5ed"/>
+                        <constraint firstAttribute="trailing" secondItem="BRM-k4-DbB" secondAttribute="trailing" constant="12" id="bsq-4K-ivX"/>
+                        <constraint firstItem="BRM-k4-DbB" firstAttribute="top" secondItem="A3b-o6-pg2" secondAttribute="bottom" constant="8" id="dr4-Cy-i17"/>
+                        <constraint firstItem="O8N-Du-Pe6" firstAttribute="top" secondItem="QXJ-AB-pxC" secondAttribute="top" constant="12" id="e9N-4k-fRO"/>
+                        <constraint firstAttribute="bottom" secondItem="52b-v3-0XH" secondAttribute="bottom" constant="8" id="f2e-7Y-uXW"/>
+                        <constraint firstAttribute="trailing" secondItem="A3b-o6-pg2" secondAttribute="trailing" constant="12" id="jgJ-p1-v7k"/>
+                        <constraint firstItem="XGP-md-T3A" firstAttribute="top" secondItem="QXJ-AB-pxC" secondAttribute="top" constant="12" id="kik-ek-bxj"/>
+                        <constraint firstItem="d9F-zP-rR7" firstAttribute="top" secondItem="RfQ-CI-L6S" secondAttribute="bottom" constant="8" id="lNQ-99-JTU"/>
+                        <constraint firstItem="RfQ-CI-L6S" firstAttribute="top" secondItem="XGP-md-T3A" secondAttribute="bottom" constant="8" id="nSM-C9-wmV"/>
+                        <constraint firstItem="A3b-o6-pg2" firstAttribute="top" secondItem="O8N-Du-Pe6" secondAttribute="bottom" constant="8" id="p1A-DL-wgU"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="QXJ-AB-pxC" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="5hM-CI-OYf"/>
+                <constraint firstItem="Sb2-bl-h5R" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="12" id="7Al-zq-3IT"/>
+                <constraint firstItem="QXJ-AB-pxC" firstAttribute="top" secondItem="Sb2-bl-h5R" secondAttribute="bottom" constant="-8" id="BB2-ku-Ts6"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="QXJ-AB-pxC" secondAttribute="trailing" id="D2l-MD-IEF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Sb2-bl-h5R" secondAttribute="trailing" constant="12" id="ML5-FF-gjA"/>
+                <constraint firstItem="Sb2-bl-h5R" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="12" id="hjT-1e-Hua"/>
+                <constraint firstItem="QXJ-AB-pxC" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="uH3-0E-krP"/>
+            </constraints>
+            <point key="canvasLocation" x="139.69465648854961" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="BackIcon">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Zone3">
+            <color red="0.0" green="0.71799999475479126" blue="0.082000002264976501" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

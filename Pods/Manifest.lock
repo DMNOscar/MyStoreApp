@@ -1,0 +1,42 @@
+PODS:
+  - Alamofire (5.6.2)
+  - Cosmos (25.0.1)
+  - Kingfisher (7.12.0)
+  - PromiseKit (6.18.1):
+    - PromiseKit/CorePromise (= 6.18.1)
+    - PromiseKit/Foundation (= 6.18.1)
+    - PromiseKit/UIKit (= 6.18.1)
+  - PromiseKit/CorePromise (6.18.1)
+  - PromiseKit/Foundation (6.18.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.18.1):
+    - PromiseKit/CorePromise
+  - SDWebImage (5.20.0):
+    - SDWebImage/Core (= 5.20.0)
+  - SDWebImage/Core (5.20.0)
+
+DEPENDENCIES:
+  - Alamofire (= 5.6.2)
+  - Cosmos (~> 25.0)
+  - Kingfisher (~> 7.0)
+  - PromiseKit (~> 6.8)
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cosmos
+    - Kingfisher
+    - PromiseKit
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Cosmos: 02db0a1c953107049bfd2d7af19ceef55ecb7e98
+  Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
+  PromiseKit: 49d70c53d5d20e346beaea4b276b5dd2ab446bb4
+  SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
+
+PODFILE CHECKSUM: b97ddfdfe0112d54672ad3ac603f724362fa9c28
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,6 @@
+framework module Pods_MyStoreApp {
+  umbrella header "Pods-MyStoreApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

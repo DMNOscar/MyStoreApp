@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aHD-J4-rWo">
+                                <rect key="frame" x="76.666666666666686" y="331" width="240" height="190"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_home" translatesAutoresizingMaskIntoConstraints="NO" id="QdW-eq-lmv">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                        <color key="tintColor" name="BackIcon"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="128" id="QSt-WY-p01"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Demo Store" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdD-s4-e1k">
+                                        <rect key="frame" x="0.0" y="140" width="240" height="41.666666666666657"/>
+                                        <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="32"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="QdW-eq-lmv" firstAttribute="leading" secondItem="aHD-J4-rWo" secondAttribute="leading" id="IwA-Ul-mWI"/>
+                                    <constraint firstAttribute="trailing" secondItem="cdD-s4-e1k" secondAttribute="trailing" id="L13-gA-4HH"/>
+                                    <constraint firstItem="cdD-s4-e1k" firstAttribute="leading" secondItem="aHD-J4-rWo" secondAttribute="leading" id="b4H-ri-Yus"/>
+                                    <constraint firstAttribute="width" constant="240" id="dMY-1j-oXh"/>
+                                    <constraint firstAttribute="height" constant="190" id="dnS-aZ-vMc"/>
+                                    <constraint firstAttribute="trailing" secondItem="QdW-eq-lmv" secondAttribute="trailing" id="lbn-9h-LWs"/>
+                                    <constraint firstItem="QdW-eq-lmv" firstAttribute="top" secondItem="aHD-J4-rWo" secondAttribute="top" id="t61-Xi-9qQ"/>
+                                    <constraint firstItem="cdD-s4-e1k" firstAttribute="top" secondItem="QdW-eq-lmv" secondAttribute="bottom" constant="12" id="txL-gk-mQL"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="aHD-J4-rWo" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="0Aq-3k-I4u"/>
+                            <constraint firstItem="aHD-J4-rWo" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="TVb-VJ-q7T"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_home" width="800" height="800"/>
+        <namedColor name="BackIcon">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

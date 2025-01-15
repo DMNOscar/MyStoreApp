@@ -1,0 +1,12 @@
+//
+//  Production.xcconfig
+//  MyStoreApp
+//
+//  Created by Oscar Martinez on 09/01/25.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+ROOT_URL  = https:/$()/fakestoreapi.com
+
