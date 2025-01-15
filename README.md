@@ -23,6 +23,7 @@ Una aplicación desarrollada en Swift que simula una tienda en línea utilizando
 ## Tecnologías utilizadas
 
 - **Lenguaje:** Swift
+- **Arquitectura:** VIPER
 - **Persistencia local:** Core Data
 - **Consumo de API:** URLSession
 - **Gestión de dependencias:** Swift Package Manager
