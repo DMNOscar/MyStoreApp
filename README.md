@@ -91,7 +91,7 @@ Las contribuciones son bienvenidas. Por favor, sigue estos pasos:
 
 ## Autor
 
-Desarrollado por [Tu Nombre](https://github.com/tuusuario).
+Desarrollado por [Oscar Martínez](https://github.com/DMNOscar).
 
 ## Licencia
 
