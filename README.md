@@ -1,4 +1,4 @@
-# MyStoreApp
+# Demo Store App
 
 Una aplicación desarrollada en Swift que simula una tienda en línea utilizando la API pública **Fake Store API**. Permite explorar un listado de productos, filtrarlos por categoría, ver información detallada de cada producto y gestionar un carrito de compras con persistencia local.
 
